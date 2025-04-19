@@ -1,0 +1,93 @@
+/*  Estilo do Header com o menu  */ 
+
+header {
+    width: 100%;
+    margin-top: 5px;
+
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+i {
+    color: white;
+}
+
+.header-icons {
+    display: flex;
+    gap: 14px;
+}
+
+.header-icons a:hover {
+    i{
+        animation: translateY 0.8s infinite alternate;
+        color: black;
+    }
+}
+@keyframes translateY {
+    from{
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
+.header-button {
+    border: 1px solid white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    color: white;
+    background-color: transparent;
+    transition: 0.8s;
+}
+
+.header-button a {
+    color: white;
+}
+
+.header-button:hover {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-logo img {
+    width: 65%;
+    min-width: 182px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-content{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+       
+    }
+
+    .header-logo img {
+        margin-top: 50px;
+    }
+
+    .header-button{
+        display: none;
+    }
+
+    .header-icons {
+        font-size: 20px;
+    }
+
+    
+}
