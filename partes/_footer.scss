@@ -82,9 +82,8 @@
 
 @media screen and (max-width: 768px) {
     .btn-whatsapp {
-        img {
-            width: 64px;
-        }
+        display: none;
+
     }
 
 }

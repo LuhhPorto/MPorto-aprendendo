@@ -338,8 +338,8 @@ i {
 }
 
 @media screen and (max-width: 768px) {
-  .btn-whatsapp img {
-    width: 64px;
+  .btn-whatsapp {
+    display: none;
   }
 }
 /*    Cuidando do tamanho da tela sem afetar o background   */
