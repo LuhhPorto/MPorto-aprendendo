@@ -1,0 +1,90 @@
+.footer-background {
+    background-color: #06121E;
+}
+
+.footer {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 35px;
+
+}
+.footer-content {
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+
+
+    img {
+        margin-top: -90px;
+        margin-bottom: -50px;
+        width: 350px;
+    }
+
+}
+
+.footer-content{
+    a{
+        z-index: 99;
+    }
+}
+
+.footer-text {
+    color: white;
+    text-align: center;
+}
+
+
+/* Botão do WhatsApp --------------------------*/
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 14px;
+    right: 24px;
+    z-index: 99;
+ 
+    
+    img {
+        max-width: 74px;
+        transition: transform 0.4s;
+
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+
+.btn-whatsapp .btn-whatsapp-text {
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: -144px;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.btn-whatsapp:hover .btn-whatsapp-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-whatsapp {
+        img {
+            width: 64px;
+        }
+    }
+
+}

@@ -8,8 +8,10 @@
 }
 /*  Importando as outras linhas de estilo    */ 
 @import "partes/header";
-@import "partes/section";
+@import "partes/sectionhome";
 @import "partes/sectionservices";
+@import "partes/sectiontestimony";
+@import "partes/footer";
 
 /*    Cuidando do tamanho da tela sem afetar o background   */ 
 
@@ -25,6 +27,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
 
     background-color: blueviolet;
     
