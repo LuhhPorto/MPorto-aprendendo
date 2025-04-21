@@ -14,6 +14,7 @@
         font-size: 40px;
         align-items: center;
         justify-content: center;
+        text-align: center;
 
     }
 
@@ -47,10 +48,12 @@
     .home-content{
         h1 {
             font-size: 30px;
+            text-align: center;
         }
 
         p {
             max-width: 350px;
+            text-align: center;
         }
 
         a {
@@ -85,6 +88,7 @@
 @media screen and (max-width:768px) { 
     .about-content {
         flex-direction: column;
+        text-align: center;
     }
     .about-text {
         max-width: 90%;

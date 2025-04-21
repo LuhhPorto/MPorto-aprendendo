@@ -21,9 +21,10 @@
 
 
     img {
-        margin-top: -90px;
+        margin-top: -50px;
         margin-bottom: -50px;
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
     }
 
 }
@@ -82,8 +83,7 @@
 
 @media screen and (max-width: 768px) {
     .btn-whatsapp {
-        display: none;
-
+        width: 60px;
     }
 
 }

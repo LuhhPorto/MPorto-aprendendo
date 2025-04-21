@@ -104,6 +104,7 @@ i {
   font-size: 40px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .home-content p {
   font-size: 20px;
@@ -133,9 +134,11 @@ i {
 @media screen and (max-width: 768px) {
   .home-content h1 {
     font-size: 30px;
+    text-align: center;
   }
   .home-content p {
     max-width: 350px;
+    text-align: center;
   }
   .home-content a {
     border: 1px solid black;
@@ -163,6 +166,7 @@ i {
 @media screen and (max-width: 768px) {
   .about-content {
     flex-direction: column;
+    text-align: center;
   }
   .about-text {
     max-width: 90%;
@@ -242,17 +246,20 @@ i {
 @media screen and (max-width: 768px) {
   .testimony-tittle h2 {
     font-size: 20px;
+    text-align: center;
   }
   .testimony-content {
     flex-direction: column;
+    text-align: center;
   }
 }
 /* Inicio do estilo do mapa */
 .map {
   width: 100%;
-  height: 50vh;
+  height: 50%;
   display: flex;
   flex-direction: column;
+  font-size: 90%;
 }
 
 .map-content {
@@ -288,9 +295,10 @@ i {
   gap: 16px;
 }
 .footer-content img {
-  margin-top: -90px;
+  margin-top: -50px;
   margin-bottom: -50px;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
 }
 
 .footer-content a {
@@ -339,7 +347,7 @@ i {
 
 @media screen and (max-width: 768px) {
   .btn-whatsapp {
-    display: none;
+    width: 60px;
   }
 }
 /*    Cuidando do tamanho da tela sem afetar o background   */
